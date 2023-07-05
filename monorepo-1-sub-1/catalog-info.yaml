@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: monorepo-1-sub-1
+  description: Monorepo 1, Sub 1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: brian
+  
