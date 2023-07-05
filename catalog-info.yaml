@@ -7,4 +7,14 @@ spec:
   type: website
   lifecycle: experimental
   owner: brian
-  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: monorepo-1-sub-locations
+spec:
+  type: file
+  targets:
+    - ./monorepo-1-sub-1/backstage.yaml
+    - ./monorepo-1-sub-2/backstage.yaml
+    - ./monorepo-1-sub-3/backstage.yaml
