@@ -13,7 +13,7 @@ kind: Location
 metadata:
   name: monorepo-1-sub-locations
 spec:
-  type: file
+  type: url
   targets:
     - ./monorepo-1-sub-1/backstage.yaml
     - ./monorepo-1-sub-2/backstage.yaml
