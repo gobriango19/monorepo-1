@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: monorepo-1-sub-3
   description: Monorepo 1, Sub 3
+  annotations:
+    github.com/project-slug: gobriango19/monorepo-1
 spec:
   type: service
   lifecycle: experimental
